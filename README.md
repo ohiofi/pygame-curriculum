@@ -33,7 +33,7 @@ Create a timer that counts up to an end number, then stops
 
 3. Define the draw function and inside this function... Clear the screen. Draw the timer as text on the screen and then draw the points as text on the screen. If the time HAS reached the end number then change the fill color for the screen. https://pygame-zero.readthedocs.io/en/stable/builtins.html#screen
 
-4. Define a function that will be called when the mouse is clicked. https://pygame-zero.readthedocs.io/en/stable/introduction.html?highlight=on_mouse_down#handling-clicks Inside of this function... if the timer has NOT reached the end number, then add a point.
+4. Define a function that will be called when any key is pressed. https://pygame-zero.readthedocs.io/en/stable/hooks.html?highlight=on_key_down#event-handling-hooks Inside of this function... if the timer has NOT reached the end number, then add a point.
 
 5. Start the clock by calling the clockTick function.
 
@@ -73,6 +73,26 @@ https://pygame-zero.readthedocs.io/en/stable/
 
 Implement a Dot class. Each Dot object has 3 unique instance variables (x, y, and color) and 1 method ( drawDot() ).
 
-## 05 - sourGrapes
+## 05 - weirdPiano
 
-An animal and a cluster of grapes (or some other kind of food) appear on the screen. Download a background image that is the size of the game or larger. Use `screen.blit` to display the background image. https://pygame-zero.readthedocs.io/en/stable/builtins.html#images Use the arrow keys to move the animal to eat the grapes. When the animal touches the grapes, you receive points and the grapes jump to a random, new location. The game ends after several seconds, the background color changes and the text "Game Over" is displayed. Use a boolean variable called gameOver. If not gameOver then the arrow keys work. Finally, add a slow predator that chases you. If the `predator.colliderect(animal)` then set gameOver to be true.
+Map 9 or more keys to various tones, sounds, and music.
+
+1. If `keyboard.a` is pressed https://pygame-zero.readthedocs.io/en/stable/builtins.html#the-keyboard then play a certain tone https://pygame-zero.readthedocs.io/en/stable/builtins.html#tone-generator
+
+2. If `keyboard.s` is pressed, then play a certain sound https://pygame-zero.readthedocs.io/en/stable/builtins.html#sounds You can use `sounds.eep.play()` to test this out. Any sounds that you download or create must be either WAV or OGG.
+
+3. If `keyboard.d` is pressed, then loop a certain piece of music https://pygame-zero.readthedocs.io/en/stable/builtins.html#music MP3s will not work and must be converted to either WAV or OGG. If `keyboard.d` is pressed again, then `music.stop()`
+
+## 06 - sourGrapes
+
+1. An animal and a cluster of grapes (or some other kind of food) appear on the screen.
+
+2. Download a background image that is the size of the game or larger. Use `screen.blit` to display the background image. https://pygame-zero.readthedocs.io/en/stable/builtins.html#images
+
+3. The game ends after 10 or more seconds, the background image changes and the text "Game Over" is displayed. Use a boolean variable called gameOver.
+
+4. Use the arrow keys to move the animal around so they can eat the grapes. The arrow keys work if not gameOver. When the animal touches the grapes, you receive points and the grapes jump to a random, new location.
+
+5. Add sound effects and music. Free CC music at https://freemusicarchive.org/genre/Chiptune/ or https://freemusicarchive.org/search/?quicksearch=8bit
+
+6. Finally, add a predator that slowly chases you. If the `predator.colliderect(animal)` then set gameOver to be true.
