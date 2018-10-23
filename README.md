@@ -1,6 +1,6 @@
 # pygame zero curriculum
 
-## 01 - helloOoWoOorld
+## 01 - helloooWooorld
 
 Use the Pygame Zero documentation to help you complete this assignment:
 https://pygame-zero.readthedocs.io/en/stable/
@@ -9,7 +9,7 @@ https://pygame-zero.readthedocs.io/en/stable/
 
 2. Fill the screen with a solid color to something other than black or white. https://pygame-zero.readthedocs.io/en/stable/builtins.html#screen
 
-3. Write "Hello World" towards the **center** of the screen. For example, `screen.draw.text("Hello World", topleft=(20, -10))`
+3. Write "Hellooo Wooorld" towards the **center** of the screen. For example, `screen.draw.text("Hellooo Wooorld", topleft=(20, -10))`
 
 4. Set the text color to something other than black or white. https://pygame-zero.readthedocs.io/en/stable/ptext.html
 
