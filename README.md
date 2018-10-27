@@ -5,7 +5,7 @@
 Use the Pygame Zero documentation to help you complete this assignment:
 https://pygame-zero.readthedocs.io/en/stable/
 
-1. Define the draw function. `def draw():` For this project, most of your code will be inside of this function.
+1. Define the draw function. `def draw():` For this project, most of your code will be inside of this function. Draw is a special function that Pygame Zero will automatically call whenever it needs to paint the screen. There is one other function that Pygame Zero will automatically call `def update():` but we will not use it in this project.
 
 2. Fill the screen with a solid color, something other than black or white. https://pygame-zero.readthedocs.io/en/stable/builtins.html#screen
 
@@ -49,7 +49,7 @@ Create a timer that counts up to an end number, then stops
 
 5. Define a function called moveCoin. Inside of this function... set coin.x to a random integer between 0 and 800. Do the same thing for coin.y
 
-6. Define a function that will update 60 times a second. https://pygame-zero.readthedocs.io/en/stable/introduction.html?highlight=update#moving-the-alien Inside of this function... If `dude.colliderect(coin)` then add a point and moveCoin. If `keyboard.left` then decrease dude.x by 10, otherwise if `keyboard.right` then increase dude.x by 10. Do the same thing for `keyboard.up` and `keyboard.down`
+6. Define a function that will automatically update 60 times a second. https://pygame-zero.readthedocs.io/en/stable/introduction.html?highlight=update#moving-the-alien Inside of this function... If `dude.colliderect(coin)` then add a point and moveCoin. If `keyboard.left` then decrease dude.x by 10, otherwise if `keyboard.right` then increase dude.x by 10. Do the same thing for `keyboard.up` and `keyboard.down`
 
 ## 04 - weirdPiano
 
