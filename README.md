@@ -33,7 +33,7 @@ Create a timer that counts up to an end number, then stops
 
 3. Define the draw function and inside this function... Clear the screen. Draw the timer as text on the screen and then draw the points as text on the screen. If the time HAS reached the end number then change the fill color for the screen. https://pygame-zero.readthedocs.io/en/stable/builtins.html#screen
 
-4. Define a function that will be called when any key is pressed. https://pygame-zero.readthedocs.io/en/stable/hooks.html?highlight=on_key_down#event-handling-hooks Inside of this function... if the timer has NOT reached the end number, then add a point.
+4. Define a function that will be called when any key is pressed. https://pygame-zero.readthedocs.io/en/stable/hooks.html?highlight=on_key_down#event-handling-hooks In order to run this function when ANY key is pressed, just create the function definition with 0 parameters/arguments. Inside of this function... if the timer has NOT reached the end number, then add a point.
 
 5. Start the clock by calling the clockTick function.
 
