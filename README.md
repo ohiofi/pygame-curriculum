@@ -41,7 +41,7 @@ Create a timer that counts up to an end number, then stops
 
 1. Set the room to be 800 x 800. https://pygame-zero.readthedocs.io/en/stable/introduction.html
 
-2. Declare a variable called `points` and set it to zero. Declare a variable called `gameOver` and initialize it as `false`
+2. Declare a variable called `points` and set it to zero. 
 
 3. Instantiate an Actor named "dude", like this `dude = Actor("alien")` but you may NOT use "alien" or "alien_hurt." Download and add your own transparent PNG sprite. Try to keep the size under 90 x 90. https://codewith.mu/en/howto/pgzero_sounds_images Next, instantiate an Actor that is a coin. Download and add your own transparent PNG coin sprite (size under 90 x 90).
 
