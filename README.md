@@ -29,9 +29,9 @@ Create a timer that counts up to an end number, then stops
 
 1. Declare a points variable and set it to 0. Declare a timer variable and set it to something like 5.
 
-2. Define a function called clockTick. Inside this function... Change the timer by 1. Print the timer to the console. If the timer has NOT reached the end number, then schedule a clockTick to occur in 1 second. https://pygame-zero.readthedocs.io/en/stable/builtins.html?highlight=clock#clock
+2. Define a function called clockTick. Inside this function... Declare that the timer variable is global. Change the timer by 1. Print the timer to the console. If the timer has NOT reached the end number, then schedule a clockTick to occur in 1 second. https://pygame-zero.readthedocs.io/en/stable/builtins.html?highlight=clock#clock
 
-3. Define the draw function and inside this function... Clear the screen. Draw the timer as text on the screen and then draw the points as text on the screen. If the time HAS reached the end number then change the fill color for the screen. https://pygame-zero.readthedocs.io/en/stable/builtins.html#screen
+3. Define the draw function and inside this function... Clear the screen. Draw the timer as text on the screen (you will need to convert it from a number to a string) and then draw the points as text on the screen (you will also need to convert it from a number to a string). If the time HAS reached the end number then change the fill color for the screen. https://pygame-zero.readthedocs.io/en/stable/builtins.html#screen
 
 4. Define a function that will be called when any key is pressed. https://pygame-zero.readthedocs.io/en/stable/hooks.html?highlight=on_key_down#event-handling-hooks In order to run this function when ANY key is pressed, just create the function definition with 0 parameters/arguments. Inside of this function... if the timer has NOT reached the end number, then add a point.
 
