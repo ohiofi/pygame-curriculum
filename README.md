@@ -46,8 +46,8 @@ Create a timer that counts up to an end number, then stops
 3. Instantiate an Actor named "dude", like this `dude = Actor("alien")` but you may NOT use "alien" or "alien_hurt." Download and add your own transparent PNG sprite. Try to keep the size under 90 x 90. https://codewith.mu/en/howto/pgzero_sounds_images Next, instantiate an Actor that is a coin. Download and add your own transparent PNG coin sprite (size under 90 x 90).
 
 **NOTE: You MUST either...**
-- Save your .py file in the mu_code folder (because it contains the images folder)
-- OR create an images folder wherever you save your .py file (if you save it in your L drive, then you must create an images folder on your L drive) and put you transparent PNG sprite in that folder
+- **Save your .py file in the mu_code folder (because it contains the images folder)**
+- **OR create an images folder wherever you save your .py file (if you save it in your L drive, then you must create an images folder on your L drive) and put you transparent PNG sprite in that folder**
 
 4. Define the draw function and inside this function... Clear the screen. Give it a fill color other than black or white. Draw the points as text on the screen. Draw your Actor dude, like this `dude.draw()` and then draw your coin actor.
 
