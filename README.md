@@ -43,9 +43,7 @@ Create a timer that counts up to an end number, then stops
 
 2. Declare a variable called `points` and set it to zero. 
 
-3. Instantiate an Actor named "dude", like this `dude = Actor("alien")` but you may NOT use "alien" or "alien_hurt." Download and add your own transparent PNG sprite. Try to keep the size under 90 x 90. https://codewith.mu/en/howto/pgzero_sounds_images Next, instantiate an Actor that is a coin. Download and add your own transparent PNG coin sprite (size under 90 x 90).
-
-**NOTE: You MUST either...**
+3. Instantiate an Actor named "dude", like this `dude = Actor("alien")` but you may NOT use "alien" or "alien_hurt." Download and add your own transparent PNG sprite. Try to keep the size under 90 x 90. https://codewith.mu/en/howto/pgzero_sounds_images Next, instantiate an Actor that is a coin. Download and add your own transparent PNG coin sprite (size under 90 x 90). **NOTE: You MUST either...**
 - **Save your .py file in the mu_code folder (because it contains the images folder)**
 - **OR create an images folder wherever you save your .py file (if you save it in your L drive, then you must create an images folder on your L drive) and put you transparent PNG sprite in that folder**
 
